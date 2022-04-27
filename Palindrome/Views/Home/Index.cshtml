@@ -1,0 +1,84 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<style>
+    .form-control {
+        border-radius: 15px;
+    }
+</style>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Palindrome</title>
+    <link href="~/Content/Bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body background="~/Content/Images/Background.png">
+    <div class="row justify-content-center">
+        <div class="card " style="width: 40rem; margin-top:15%">
+            <div class="card-body">
+                <div class="row mt-4">
+                    <div class="col-2"></div>
+                    <div class="col-1"><img src="~/Content/Images/JavaScript.png" class="form-image" /></div>
+                    <div class="col-6">
+
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="JsText" />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row  mt-2">
+                    <div class="col-2"></div>
+                    <div class="col-1"><img src="~/Content/Images/SqlLogo.png"  class="form-image"/></div>
+                    <div class="col-6">
+                        <div class="col-12">
+                            <input type="text" id="SqlText" class="form-control" />
+                        </div>
+
+                    </div>
+                    <div class="col-1 mt-1">
+                        <button id="SqlBtn" >GO </button>
+                    </div>
+                </div>
+                <div class="row  mt-2">
+                    <div class="col-2"></div>
+                    <div class="col-1"><img src="~/Content/Images/CSharp.png" class="form-image" /></div>
+                    <div class="col-6">
+
+
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="CsharpText"  />
+                        </div>
+
+                    </div>
+                    <div class="col-1 mt-1">
+                        <button id="CsharpBtn" >GO </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer font-small blue mt-4">
+
+
+        <div class="footer-copyright text-center py-3">
+            <img src="~/Content/Images/Logo.png" />
+        </div>
+
+
+    </footer>
+</body>
+</html>
+
+
+<script src="~/Scripts/jquery-3.6.0.min.js"></script>
+
+<script src="~/Content/Js/Palindrome.js"></script>

@@ -1,0 +1,11 @@
+﻿.form-image {
+    max-width: 40px;
+}
+button {
+    border-radius: 15px;
+    border-color: black;
+    color: green
+}
+input[type="text"] {
+    border-radius: 15px;
+}
